@@ -34,7 +34,7 @@ nav.menu{
 	width: 60%;
 	position: relative;
 	float: right;
-	margin-right: 200px;
+	margin-right: 300px;
 	margin-top: 23px;
 	
 	text-align: right;
@@ -42,9 +42,17 @@ nav.menu{
 section{
 	height: 100vh;
 }
+section.home, h1, h2{
+	position: relative;
+	text-align: center;
+}
+div.conteudo-home{
+	margin-top: 25%;
+}
 /* texto */
 h1, h2, h3, h4, a {
 	font-family: 'Montserrat', sans-serif;
+	
 }
 p{
 	font-family: 'Open Sans', sans-serif;
@@ -52,7 +60,7 @@ p{
 	font-weight: 600;
 }
 h1{
-	font-size: 3rem;
+	font-size: 4rem;
 }
 a.item-menu{
 	color: var(--gray-ligth);
