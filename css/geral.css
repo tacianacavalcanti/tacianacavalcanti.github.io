@@ -39,6 +39,18 @@ nav.menu{
 	
 	text-align: right;
 }
+nav.social{
+	padding: 10px;
+	display: flex;
+	position: center;
+    align-items: space-around;
+	justify-content:center;
+}
+a.item-menu-social{
+	color: var(--gray-ligth);
+	margin-right: 10px;
+}
+
 section{
 	height: 100vh;
 }
@@ -47,7 +59,7 @@ section.home, h1, h2{
 	text-align: center;
 }
 div.conteudo-home{
-	margin-top: 25%;
+	margin-top: 20%;
 }
 /* texto */
 h1, h2, h3, h4, a {
